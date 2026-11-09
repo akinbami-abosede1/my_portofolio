@@ -1586,3 +1586,16 @@ a:hover {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Mobile navigation toggle visibility */
+@media (max-width: 880px) {
+    .nav-toggle {
+        background-color: #142B45;
+        border: 1px solid #142B45;
+        border-radius: 10px;
+    }
+
+    .nav-toggle__bar {
+        background-color: #FFFFFF;
+    }
+}
